@@ -43,7 +43,7 @@ def multiplicacao(matrizA, linA, colA, matrizB, linB, colB):
         for linha in range(0, linA):
             for coluna in range(0, colB):
                 produtoSoma = 0
-                for i in range(0,linA):
+                for i in range(0, linA):
                     produtoSoma+=matrizA[linha][i]*matrizB[i][coluna]
                 matrizC.append(produtoSoma)
         # retornando o resultado 
@@ -53,7 +53,7 @@ def multiplicacao(matrizA, linA, colA, matrizB, linB, colB):
         for linha in range(0, linB):
             for coluna in range(0, colA):
                 produtoSoma = 0
-                for i in range(0,linB):
+                for i in range(0, linB):
                     produtoSoma+=matrizB[linha][i]*matrizA[i][coluna]
                 matrizC.append(produtoSoma)
         # retornando o resultado
